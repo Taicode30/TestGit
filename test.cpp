@@ -1,10 +1,13 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(){
-    cout << "Hello World!" << endl;
-    cout << "This is a test file." << endl;
-    cout << "Chao moi nguoi!!!" << "\n";
-    cout << "Tam biet moi nguoi\n";
-    return 0;
+    int n;
+    int tich = 1;
+    for (int i = 0; i <= n; i++){
+        if (i%2 == 0)
+            tich *= i;
+    }
+    cout << tich;
 }
