@@ -5,5 +5,6 @@ int main(){
     cout << "Hello World!" << endl;
     cout << "This is a test file." << endl;
     cout << "Chao moi nguoi!!!" << "\n";
+    cout << "Tam biet moi nguoi\n";
     return 0;
 }
